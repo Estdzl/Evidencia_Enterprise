@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+    <center>
+        <h1>Insertar Datos</h1>
+        <form action="inserta_datos.php" method="post">
+            <table border='1' style="border-color: blue;">
+                <tr>
+                    <td>Cliente ID:</td>
+                    <td><input type="text" name="ClienteID" required></td>
+                </tr>
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="text" name="Nombre" required /></td>
+                </tr>
+                <tr>
+                    <td>Ciudad:</td>
+                    <td><input type="text" name="Ciudad" required /></td>
+                </tr>
+                <tr>
+                    <td>Pedido:</td>
+                    <td><input type="text" name="Pedido" required /></td> 
+                </tr>
+                <tr>
+                    <td>Costo:</td>
+                    <td><input type="number" name="Costo" step="0.01" required /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Grabar" /></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
